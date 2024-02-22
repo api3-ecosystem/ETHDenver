@@ -27,7 +27,11 @@ API3 will be hosting a liquidable position with a controlled dAPI price feed tha
 First-party oracles provide a more secure and reliable oracle, whilst enabling dApps to verify the data source. API3's first-party oracles are powered by Airnode, a serverless oracle node that enables API providers to run their own oracle nodes.
 You can [learn more about first-party oracles](https://docs.api3.org/guides/airnode/calling-an-airnode/?utm_source=Eth+Istanbul&utm_medium=Github&utm_campaign=Eth+Istanbul) within the API3 Documentation.
 
-There are three key elements within API3's Oracle Stack:
+
+##  Oracle Extractable Value - The OEV Network
+The OEV network allows external users to bid to update price feeds for potential gain in profit.  Bids are done on the OEV network and updates to price feeds are done on the requested chain.
+
+Example Repo: [How to bid in the auction to update a price feed](https://github.com/api3-ecosystem/oev_priceupdate_example) 
 
 ### Data feeds: dAPIs
 
