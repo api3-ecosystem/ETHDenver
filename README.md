@@ -16,7 +16,7 @@ Project Ideas:
 
 Example Repo: [How to bid in the auction to update a price feed](https://github.com/api3-ecosystem/oev_priceupdate_example) 
 
-### 🥇 Maximize your profit of the OEV (Oracle Extractable Value) share - $5000
+### 🥇 Maximize your profit of the OEV (Oracle Extractable Value) share - $6000
 
 API3 will be hosting a liquidable position with a controlled dAPI price feed that will be lowering value over time to increase the profit position of the liquidation.  Maximize your strategy to win the price update auction and execute the liquidation with the most profit.
 
