@@ -58,7 +58,7 @@ Once the API3 has sent the OEV ETH, you can check your wallet to verify that you
 - Lending Pool: 0xEeEed4f0cE2B9fe4597b6c99eD34D202b4C03052 (read userAccountData)
 - AaveOracle: 0x97F4B0E84A589e0b4581d74734e3B2Cc7741D093 (check Oracle Price)
 ```
-* In order to pay back loans, you will need to pay in this USDC token.  This faucet requires 0.01 Sepolia ETH to claim 10,000 USDC Tokens
+In order to pay back loans, you will need to pay in this USDC token.  This faucet requires 0.01 Sepolia ETH to claim 10,000 USDC Tokens
 [Faucet]("https://sepolia.etherscan.io/address/0x3D5ebDbF134eAf86373c24F77CAA290B7A578D7d#writeContract")
 
 #### OEV network:
