@@ -25,6 +25,24 @@ Example Repo: [How to bid in the auction to update a price feed](https://github.
 [Click here to read OEV Documentation](https://docs.api3.org/guides/qrng/qrng-remix/?utm_source=Eth+Istanbul&utm_medium=Github&utm_campaign=Eth+Istanbul)
 
 
+## Important information
+
+Lending Dapp to monitor:  https://api3-oev-playground.vercel.app/markets
+
+#### ETH Sepolia Network:
+```
+- OEVT Proxy: 0xFc345f8D73cA316D8f05BD7E4B42Ddd1e28dDfEc (Price Oracle)
+- OEVT Token address: 0x5Df761cB11aEd75618a716e252789Cdc9280f5A6
+- USDC Token Address - 0x3D5ebDbF134eAf86373c24F77CAA290B7A578D7d (with Faucet)
+- Lending Pool: 0xEeEed4f0cE2B9fe4597b6c99eD34D202b4C03052 (get userAccountData)
+- AaveOracle: 0x97F4B0E84A589e0b4581d74734e3B2Cc7741D093 (check Oracle Price)
+```
+
+#### OEV network:
+```
+Auctioneer Address: 0x34f13A5C0AD750d212267bcBc230c87AEFD35CC5
+```
+
 ## Introduction to API3
 
 First-party oracles provide a more secure and reliable oracle, whilst enabling dApps to verify the data source. API3's first-party oracles are powered by Airnode, a serverless oracle node that enables API providers to run their own oracle nodes.
@@ -36,55 +54,10 @@ The OEV network allows external users to bid to update price feeds for potential
 
 Example Repo: [How to bid in the auction to update a price feed](https://github.com/api3-ecosystem/oev_priceupdate_example) 
 
-### Data feeds: dAPIs
-
-dAPIs provide smart contracts with access to continuously updated feeds of market data by oracles hosted by highly reputable financial data providers. API3's price feeds can be accessed in two methods:
-
-Self-funded dAPIs see users add collateral for oracle operation and are permissionless. They provide a data feed source with off-chain aggregation as a single source.
-
-Managed dAPIs are powered by multiple first-party oracles with native-chain aggregation offering a verifiable, decentralized oracle solution.
-Once a dAPI has been integrated a smart contract can access a range of data feed services through the [API3 Market](https://market.api3.org/dapis?utm_source=Eth+Istanbul&utm_medium=Github&utm_campaign=Eth+Istanbul).
-
-- [Learn how to get started with dAPIs](https://docs.api3.org/guides/dapis/?utm_source=Eth+Istanbul&utm_medium=Github&utm_campaign=Eth+Istanbul)
-
-- [Learn how to use dAPIs](https://docs.api3.org/guides/dapis/read-a-dapi/?utm_source=Eth+Istanbul&utm_medium=Github&utm_campaign=Eth+Istanbul)
-
-- [Check out the API3 Market](https://market.api3.org/dapis?utm_source=Eth+Istanbul&utm_medium=Github&utm_campaign=Eth+Istanbul)
-
-- [Check out dAPI Reader example Github repo](https://github.com/api3dao/data-feed-reader-example?utm_source=Eth+Istanbul&utm_medium=Github&utm_campaign=Eth+Istanbul)
-
-
 ## Tutorials: 
 
-Here's a list of all the demo projects that use QRNG, dAPIs and Airnode to get you started:
+Example Repo: [How to bid in the auction to update a price feed](https://github.com/api3-ecosystem/oev_priceupdate_example) 
 
-- [Making on-chain Payments and mint an NFT receipt using dAPIs](https://medium.com/@vanshwassan/making-an-on-chain-payment-and-minting-an-nft-receipt-with-permissionless-price-oracles-a7339f7b8c3e?utm_source=Eth+Istanbul&utm_medium=Github&utm_campaign=Eth+Istanbul)
-
-
-## References For ETH Denver Hackathon
-
-Links to different repos for examples and help.
-
-- ETH London Workshop Repo:
-https://github.com/api3-ecosystem/Eth-London-Demo?utm_source=Github&utm_medium=Github&utm_campaign=Eth+Istanbul&utm_id=Eth+Istanbul
-
-- ETH CHI Workshop Repo:
-https://github.com/api3-ecosystem/API3-PriceFeeds-Hardhat-Foundry?utm_source=Github&utm_medium=Github&utm_campaign=Eth+Istanbul&utm_id=Eth+Istanbul
-
-- Prediction bet between two parties
-https://github.com/api3-ecosystem/Prediction-Contract?utm_source=Github&utm_medium=Github&utm_campaign=Eth+Istanbul&utm_id=Eth+Istanbul
-
-
-- Fork of Aave with a simulation of a flashloan
-https://github.com/api3-ecosystem/Aave-Api3?utm_source=Github&utm_medium=Github&utm_campaign=Eth+Istanbul&utm_id=Eth+Istanbul
-
-- Starter kit: Starting a borrow/lend setup with WAGMI/rainbowkit front end
-https://github.com/api3-ecosystem/oracle-zkevm?utm_source=Github&utm_medium=Github&utm_campaign=Eth+Istanbul&utm_id=Eth+Istanbul
-
-- Offchain API Royalty share: Pull a Youtube API and use it to pay royalties onchain
-https://github.com/api3-ecosystem/offchain-music?utm_source=Github&utm_medium=Github&utm_campaign=Eth+Istanbul&utm_id=Eth+Istanbul
-
-- Or get started now with the [API3 Market](https://market.api3.org/dapis?utm_source=Eth+Istanbul&utm_medium=Github&utm_campaign=Eth+Istanbul).
 
 ## Community link
 
